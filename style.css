@@ -1,0 +1,64 @@
+/* Reset dasar */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f8ff; /* Warna latar belakang biru muda */
+    color: #333; /* Warna teks gelap */
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #4facfe, #00f2fe); /* Gradasi biru */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+button, select {
+    background-color: #ff6b6b; /* Merah lembut */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, select:hover {
+    background-color: #ff4b4b; /* Merah lebih gelap */
+}
+
+/* Konten utama */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #4facfe; /* Biru */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Elemen tersembunyi */
+.hidden {
+    display: none;
+}
